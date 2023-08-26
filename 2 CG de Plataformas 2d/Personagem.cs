@@ -7,7 +7,7 @@ public class Personagem : MonoBehaviour
     private Rigidbody2D rb;
     private bool isGrounded;
 
-    private void Awake()
+    private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
     }
